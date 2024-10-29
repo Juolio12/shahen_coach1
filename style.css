@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body{
+    background-color: #111317;
+   
+    
+
+}
+
+/* _____________standards__________________ */
+
+.btn{
+    padding: 1rem 2rem;
+    
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #ffff;
+    background-color: #d79447;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: #f9ac5a;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* _________________header_________________________ */
+
+header{
+    padding: 10px 200px;
+}
+
+header nav{
+
+    /* max-width: 1200px; */
+    /* margin: auto; */
+    padding: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+
+    max-width: 130px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #d79447;
+    font-size: 3em;
+    padding-left: 26px;
+    text-transform: uppercase;
+    border-bottom: 1px solid burlywood;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+
+ul li a{
+    padding: 1.5rem 2.5rem;
+    text-decoration: none;
+    color: #ffff;
+    transform: scale(0.2);
+    
+}
+
+ul li a:hover{
+    border-bottom: 2px solid #f9ac5a;
+    width: 50%;
+    transition: 0.7s ease;
+}
+
+/* __________________________end of header */
+
+
+
+
+/* _________________________section main */
+
+
+.main{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    background:url(imgs/change.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.main-sec-content{
+    max-width: 35%;
+    margin-top: 10%;
+    margin-left: 18%;
+    padding: 15px;
+    position: relative;
+}
+
+.main .blug-2{
+    position: absolute;
+    box-shadow: 0 0 1000px 50px #f9ac54;
+    z-index: -1;
+    right: 18%;
+    bottom: 11%;
+
+
+}
+
+.main-img{
+    position: absolute;
+    right: 15%;
+    z-index: 999;
+    max-width: 28%;
+}
+
+.main-sec-content h4{
+    
+
+    font-size: 2.1em;
+    text-transform: uppercase;
+    color: #f9ac54;
+}
+
+.main-sec-content h1{
+    font-size: 4.7em;
+    line-height: 1.2em;
+    color: white;
+}
+
+
+.main-sec-content p{
+    display: inline-block;
+    margin-bottom: 30px;
+    color: #ffff;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+}
+
+
+.main-sec-content .make{
+    color: #eee;
+    border-left: 2px solid burlywood;
+    padding-left: 14px;
+
+}
+
+
+h2{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-size: 1.9em;
+    text-transform: uppercase;
+    color: white;
+    
+    
+
+}
+
+/* ______________________________________programmes secion_________________ */
+
+.sec-cont h2{
+    max-width: 700px;
+    border-top: 1px solid #d79447;
+
+}
+
+.prog-cards{
+    margin-top: 10%;
+    margin-left: 19%;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card-1{
+    background-color: #d79447;
+    width: 14.25em;;
+    width: 14.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.233);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 25px;
+    transition: 0.7s ease;
+    text-align: center;
+}
+
+
+.card-1:hover{
+    transform: scale(1.1);
+}
+
+.card-1:hover{
+    background-color: #111317;
+    border: 1px solid #d79447;
+}
+
+.card-1:hover , p:hover{
+    color: white;
+}
+
+.c-icon{
+    font-size: 8em;
+    color: white;
+}
+
+h3{
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+    color: white;
+}
+
+.c-p{
+    color: white;
+}
+/* ________________________________________________end of prog sec */
+
+
+
+
+/* .char-card{
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+
+}
+
+.char-card:hover{
+    transform: scale(1.1);
+}
+
+.char-image img{
+    width: 100%;
+
+
+    
+}
+
+.char-info{
+    padding: 0.2em 1em;
+}
+.names{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    /* margin-top: 10px; */
+    
+
+
+/* .cleint-sec{
+    
+    min-height: 100vh;
+    background-image: url(imgs/wallpaperflare.com_wallpaper\ \(15\).jpg);
+    width: 100%;
+    min-height: 100vh;
+    
+    background-size: cover;
+    background-position: center;
+    border-radius: 123px;
+}
+.cleint-sec h2{
+   
+    margin-top: 6%;
+    margin-left: 19%;
+    padding-bottom: 66px;
+}
+
+
+
+.cleint-sec .content{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 30px;
+} */ 
+
+
+
+
+/* ______________________client section_____________________ */
+
+
+.cleint-sec{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    border-bottom: 1px solid wheat;
+    position: relative;
+    /* background: url(imgs/class-2.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: ; */
+
+}
+
+.cleint-sec .blug-1{
+    top: 300px;
+}
+
+
+.client-para{
+    padding-top: 10%;
+    padding-left: 15%;
+   
+    
+
+}
+.client-para p{
+    color: wheat;
+    font-size: 1.2em;
+    width: 400px;
+
+}
+
+.client-para span{
+    font-size: 2.5em;
+    padding-right: 7px;
+}
+
+#tv {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin: 20px 0;
+    background: red;
+    background: url(imgs/class-2.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50% / 10%;
+    color: white;
+    text-align: center;
+    text-indent: .1em;
+    right: 56%;
+    top: 29%;
+    display: inline-block;
+  }
+#tv:before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    right: -5%;
+    left: -5%;
+    background: inherit;
+    border-radius: 5% / 50%;
+ }
+
+
+
+  
+
+
+
+
+
+.client-content{
+    position: relative;
+}
+.client-content .char-card{
+    
+    position: absolute;
+    border-radius: 20px;
+    background-color: burlywood;
+   
+
+}
+
+.char-card , .c1 , .c2 , .c3 ,.c4{
+    position: absolute;
+    
+    border-radius: 20px;
+    background-color: burlywood;
+    transition: 0.7s ease;
+}
+.char-card , .c1:hover , .c2:hover , .c3:hover , .c4:hover{
+    transform: scale(1.1);
+    
+   
+
+}
+
+
+
+
+.char-card .c1{
+    right: 307px;
+    top: 112px;
+    z-index: -4;
+}
+    
+
+
+    
+
+.char-card  img{
+    width: 300px;
+  
+}
+
+.char-card .c2{
+    
+    right: 536px;
+    top: 254px;
+    z-index: -2;
+}
+
+   
+
+.char-card .c2 img{
+    
+
+}
+
+.char-card .c3{
+    right: 265px;
+    top: 315px;
+    z-index: -3;
+}
+.char-card .c4{
+    right: 551px;
+    
+    top: 418px;
+}
+   
+
+
+   
+
+
+
+.char-card .char-image img{
+    border: 1px solid white;
+    border-radius: 23px;
+}
+
+.char-info{
+    padding: 0.2em 1em;
+}
+.names{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+/* __________________________________________end of client sec */
+
+
+
+
+
+
+
+
+.cards-contact h2{
+    margin-left: 19%;
+}
+
+.cards-contact .card-1{
+    justify-content: center;
+    width: 21.25em;
+}
+.cards-contact .content{
+    justify-content: center;
+    position: relative;
+    
+    
+}
+
+
+.blug-1{
+    position: absolute;
+    box-shadow: 0 0 1000px 50px #f9ac54;
+    z-index: -1;
+    right: 81%;
+}
+
+/* the wave animation */
+
+.wave-parent{
+    position: relative;
+    width: 100%;
+    background: #111317;
+    overflow: hidden;
+    height: 13vh;
+    margin-top: 26px;
+
+}
+
+.wave-parent .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(imgs/wave.png);
+    background-size: 1000px 100px;
+    /* background-size: 1000px 155px; */
+} 
+.wave-parent .wave.wave1{
+    animation: animate 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s ;
+    bottom: 0;
+}
+.wave-parent .wave.wave2{
+    animation: animate2 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s ;
+    bottom: 10px;
+}
+.wave-parent .wave.wave3{
+    animation: animate 10s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s ;
+    bottom: 15px;
+}
+
+.cards-contact .content{
+    margin-bottom: 100px;
+}
+
+@keyframes animate{
+    0%{
+        background-position-x:0 ;
+    }
+    100%{
+        background-position-x:1000px ;
+    }
+
+}
+@keyframes animate2 {
+    0%{
+        background-position-x:0 ;
+    }
+    100%{
+        background-position-x:-1000px ;
+    }
+
+}
+
+
+@media (max-width:641px){
+
+    body{
+        font-size: 0.6em;
+    }
+    .content{
+        
+        align-items: center;
+        padding-left: 38px;
+    }
+
+    .head ul{
+        display: none;
+    }
+
+    .main{
+        position: inherit;
+        flex-direction: column-reverse;
+    }
+
+    .main-img{
+        position: relative;
+        max-width: 232px;
+        left: calc(100% - 72%);
+    }
+
+    .img-main{
+        position: relative;
+        width: 100%;
+
+    }
+
+    .main-sec-content{
+        max-width: 70%;
+        margin-top: 4%;
+        margin-left: 6%;
+        
+    
+    }
+
+    .card-1{
+        width: 19.25em;
+    }
+   
+}
+
+@media(max-width:430px){
+    .cleint-sec{
+        margin-left: 48px;
+        border-radius: 65px;
+
+    }
+    .cleint-sec .content{
+        margin: 0;
+    }
+
+}
+@media(max-width:300px){
+    body{
+        font-size: 10px;
+
+    }
+
+    header{
+        padding: 10px 55px;
+        text-align: center;
+    }
+
+    .main-img{
+        max-width: 50%;
+    }
+    
+}
+
+@media(max-width:1024px){
+    header{
+        padding: 10px 62px;
+    }
+    .head ul{
+        padding-left:50px;
+    }
+    .head img{
+        width: 130px;
+
+    }
+
+    .client-content .char-card {
+        left: 38px;
+        top: 119px;
+    }
+    .cleint-sec{
+        border-bottom: 0 solid black;
+    }
+    .cards-contact{
+        margin-top: 175px;
+        border-top: 1px solid burlywood;
+    }
+}
